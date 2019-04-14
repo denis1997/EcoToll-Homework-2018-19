@@ -23,9 +23,17 @@ public class Casello {
             return nome;
 	}
         
+        public void setNome(String nome){
+            this.nome=nome;
+        }
+        
         public int getKm() {
             return km;
 	}
+        
+        public void setKm(int km){
+            this.km=km;
+        }
        
         public int kmPercorsi(Casello a) {
             return Math.abs(this.km - a.getKm());
